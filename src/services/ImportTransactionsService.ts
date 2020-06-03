@@ -50,7 +50,7 @@ class ImportTransactionsService {
       },
     });
 
-    // Filtra categorias existentes por título
+    // Cria um objeto com os títulos das categorias
     const existentCategoriesTitles = existentCategories.map(
       (category: Category) => category.title,
     );
